@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@300&display=swap');
-/* 
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&family=Playfair+Display&family=Roboto:wght@300&display=swap');/* 
 	Fonts:
+	font-family: 'IBM Plex Mono', monospace;
 	font-family: 'Playfair Display', serif;
 	font-family: 'Roboto', sans-serif;
 
@@ -9,3 +9,41 @@
 	black
 	royalblue
 */
+
+/* * * * * * * * * * *
+	General
+* * * * * * * * * * */
+body {
+	background-color: white;
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+}
+
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-size: 4rem;
+}
+
+.number {
+	font-family: 'IBM Plex Mono', monospace;
+}
+
+/* * * * * * * * * * *
+	Top link bar
+* * * * * * * * * * */
+#top-links {
+	background-color: black;
+	color: white;
+	width: 100%;
+}
+
+#top-links ul {
+	margin: 0;
+	padding: 1em;
+	text-align: right;
+}
+
+#top-links li {
+	display: inline;
+	padding: 0 1em;
+}
