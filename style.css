@@ -105,7 +105,42 @@ nav li {
 /* * * * * * * * * * *
 	Main blue section
 * * * * * * * * * * */
+
+main section {
+	padding: 4em;
+}
+
 .blue {
 	background-color: var(--oscar-blue);
 	color: var(--white);
+}
+
+#main-text {
+	width: 50%;
+}
+
+#activate {
+	background-color: var(--white);
+	color: var(--oscar-blue);
+
+	text-align: center;
+	padding: 1em;
+	font-weight: bolder;
+	width: 25%;
+
+	border: hidden;
+	border-radius: 100px;
+}
+
+#container-a {
+	display: flex;
+	justify-content: space-between;
+
+	margin: 1em;
+	padding: 1em;
+}
+
+#container-a div {
+	width: 20%;
+	border-top: 1px solid var(--white);
 }
